@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="hML-PA-oS6">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="uG5-hB-wis">
+            <objects>
+                <viewController id="hML-PA-oS6" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="jeU-1m-Xxl">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2019" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZOB-sq-EPA">
+                                <rect key="frame" x="50" y="607" width="275" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="z0X-Ck-RGq"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="20"/>
+                                <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Flickr API Demo" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LoJ-Ih-nrL">
+                                <rect key="frame" x="40" y="143" width="295" height="81.5"/>
+                                <fontDescription key="fontDescription" name="Zapfino" family="Zapfino" pointSize="24"/>
+                                <color key="textColor" red="0.1764705882" green="0.66666666669999997" blue="0.52156862749999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.72549019609999998" blue="0.65490196079999996" alpha="0.833984375" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="LoJ-Ih-nrL" firstAttribute="centerY" secondItem="jeU-1m-Xxl" secondAttribute="centerY" constant="-150" id="1P8-dY-x29"/>
+                            <constraint firstItem="LoJ-Ih-nrL" firstAttribute="leading" secondItem="ToK-h1-84H" secondAttribute="leading" constant="40" id="8UN-hu-3FD"/>
+                            <constraint firstItem="ToK-h1-84H" firstAttribute="trailing" secondItem="ZOB-sq-EPA" secondAttribute="trailing" constant="50" id="BbL-3V-rxI"/>
+                            <constraint firstItem="ToK-h1-84H" firstAttribute="trailing" secondItem="LoJ-Ih-nrL" secondAttribute="trailing" constant="40" id="XPV-io-PiG"/>
+                            <constraint firstItem="ToK-h1-84H" firstAttribute="bottom" secondItem="ZOB-sq-EPA" secondAttribute="bottom" constant="20" id="kjf-NY-jzR"/>
+                            <constraint firstItem="ZOB-sq-EPA" firstAttribute="leading" secondItem="ToK-h1-84H" secondAttribute="leading" constant="50" id="n5u-lh-yCo"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="ToK-h1-84H"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dL5-gm-dcw" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52" y="374.66266866566718"/>
+        </scene>
+    </scenes>
+</document>
