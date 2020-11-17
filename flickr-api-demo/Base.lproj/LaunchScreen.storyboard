@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="hML-PA-oS6">
-    <device id="retina4_7" orientation="portrait">
-        <adaptation id="fullscreen"/>
-    </device>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="hML-PA-oS6">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17126"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -34,6 +32,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
+                        <viewLayoutGuide key="safeArea" id="ToK-h1-84H"/>
                         <color key="backgroundColor" red="1" green="0.72549019609999998" blue="0.65490196079999996" alpha="0.833984375" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="LoJ-Ih-nrL" firstAttribute="centerY" secondItem="jeU-1m-Xxl" secondAttribute="centerY" constant="-150" id="1P8-dY-x29"/>
@@ -43,7 +42,6 @@
                             <constraint firstItem="ToK-h1-84H" firstAttribute="bottom" secondItem="ZOB-sq-EPA" secondAttribute="bottom" constant="20" id="kjf-NY-jzR"/>
                             <constraint firstItem="ZOB-sq-EPA" firstAttribute="leading" secondItem="ToK-h1-84H" secondAttribute="leading" constant="50" id="n5u-lh-yCo"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="ToK-h1-84H"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dL5-gm-dcw" userLabel="First Responder" sceneMemberID="firstResponder"/>
